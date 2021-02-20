@@ -4,7 +4,9 @@ body {
 h1 {
   color:#ffffff;
   text-align:center;
-  font-family:"Saira"
+  font-family:"Saira";
+  letter-spacing: 3px;
+  font-weight: thin;
 }
 p {
   color:#ffffff;
