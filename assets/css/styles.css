@@ -86,9 +86,9 @@ body {
   max-width: 1000px;
   margin: auto;
   border-radius: 30px;
-  /*outline-color: #000000;*/
-  outline-width: 5px;
   outline: dashed;
+  outline-color: #004e79;
+  outline-width: 4px;
   margin-bottom: 50px;
   transition: transform 1s ease-out;
 }
@@ -97,9 +97,9 @@ body {
   max-width: 1000px;
   margin: auto;
   border-radius: 30px;
-  /*outline-color: #004e79;*/
-  outline-width: 5px;
-  outline: dashed;
+  outline-color: #004e79;
+  outline-width: 4px;
+  /*outline: dashed;*/
   margin-bottom: 50px;
   transition: all 0.3s ease-out;
   transform: scale(1.1);
@@ -125,5 +125,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+p {
+  max-width: 1000px;
+  margin: auto;
 }
 
