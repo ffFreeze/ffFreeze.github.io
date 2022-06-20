@@ -86,7 +86,7 @@ body {
   max-width: 1000px;
   margin: auto;
   border-radius: 30px;
-  outline-color: #004e79;
+  /*outline-color: #000000;*/
   outline-width: 5px;
   outline: dashed;
   margin-bottom: 50px;
@@ -97,7 +97,7 @@ body {
   max-width: 1000px;
   margin: auto;
   border-radius: 30px;
-  outline-color: #004e79;
+  /*outline-color: #004e79;*/
   outline-width: 5px;
   outline: dashed;
   margin-bottom: 50px;
