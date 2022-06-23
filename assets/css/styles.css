@@ -144,6 +144,7 @@ p {
   transition: width 1s, height 1s, transform 1s;
   /*transition-delay: 0.5s;*/
   transform: scale(2);
+  transition-timing-function: ease-in;
 }
 
 .img-caption {
@@ -159,7 +160,7 @@ p {
   height: 100%;
   object-fit: cover;
   margin-bottom: 0px;
-  border-radius: 15px;
+  border-radius: 12px;
   /*margin-top: 48px;*/
 }
 
