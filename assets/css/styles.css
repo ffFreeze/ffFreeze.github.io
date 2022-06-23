@@ -159,7 +159,7 @@ p {
   height: 100%;
   object-fit: cover;
   margin-bottom: 0px;
-  border-radius: 30px;
+  border-radius: 15px;
   /*margin-top: 48px;*/
 }
 
@@ -176,10 +176,6 @@ p {
 .expertise-area {
   margin: auto;
   margin-top: 10px;
-}
-
-styles {
-  @import url('https: //fonts.googleapis.com/css2?family=Saira:wght@100;400;500;600;700;800&display=swap');
 }
 
 .project-title {
