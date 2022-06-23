@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Saira,Arial, sans-serif;
   font-size: var(--bs-body-font-size);
-  font-weight: var(--bs-body-font-weight);
+  font-weight: 400;
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
@@ -18,23 +18,6 @@ body {
   background-size: cover;
 }
 
-#promo .text2 {
-}
-
-#promo .jumbotron {
-  border-radius: 20px;
-  padding: 40px;
-  background-color: rgba(255,255,255,0.7);
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-@media (max-width: 900px) {
-  #promo .jumbotron {
-    padding: 20px;
-  }
-}
-
 @media (max-width: 900px) {
   #promo {
     padding: 20px;
@@ -47,8 +30,9 @@ body {
   margin: auto;
 }
 
-.site-section h1 {
+h1 {
   font-size: 28px;
+  font-weight: 500;
 }
 
 #welcome p {
@@ -61,14 +45,16 @@ body {
   font-size: 30px;
 }
 
-.site-section h2 {
+h2 {
   margin-top: 10px;
   font-size: 28px;
-  color: rgb(0,78,121);
+  /*color: rgb(0,78,121);*/
+  font-weight: 500;
 }
 
-.site-section h4 {
+h4 {
   font-size: 18px;
+  font-weight: 500;
 }
 
 .row {
@@ -136,10 +122,8 @@ p {
   margin: auto;
 }
 
-p {
-}
-
 .nav-button {
+  font-weight: 600;
   transition: transform 0.1s ease-out;
 }
 
@@ -187,5 +171,19 @@ p {
 
 .p-justified {
   /*text-align: justify;*/
+}
+
+.expertise-area {
+  margin: auto;
+  margin-top: 10px;
+}
+
+styles {
+  @import url('https: //fonts.googleapis.com/css2?family=Saira:wght@100;400;500;600;700;800&display=swap');
+}
+
+.project-title {
+  font-weight: 700;
+  color: #004e79;
 }
 
