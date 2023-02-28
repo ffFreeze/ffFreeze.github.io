@@ -25,8 +25,7 @@ body {
 }
 
 .container {
-  padding: 40px;
-  text-align: center;
+  /*text-align: center;*/
   margin: auto;
 }
 
@@ -46,9 +45,8 @@ h1 {
 }
 
 h2 {
-  margin-top: 10px;
   font-size: 28px;
-  /*color: rgb(0,78,121);*/
+  color: var(--bs-gray-800);
   font-weight: 500;
 }
 
@@ -63,40 +61,56 @@ h4 {
   margin: auto;
 }
 
+.project-div:hover .project-text {
+  transition: all 0.3s ease-in;
+  transform: translateY(-120px);
+}
+
 .project-text {
-  max-width: 400px;
-  margin: auto 0;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  /*clip-path: polygon(0% 0, 85% 0, 25% 100%, 0% 100%);*/
+  background: rgba(255,255,255,0.75);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 5px;
+  transition: all .5s ease-out;
 }
 
 .project-div {
-  max-width: 1000px;
-  margin: auto;
-  border-radius: 30px;
-  outline: dashed;
-  outline-color: #004e79;
-  outline-width: 4px;
-  margin-bottom: 50px;
-  transition: transform 1s ease-out;
+  position: relative;
+  border-radius: 10px;
+  /*box-shadow: 5px 5px 16px 0px rgba(0,0,0,0.25);*/
+  margin-bottom: 22px;
+  transition: all 0.5s ease-out;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .project-div:hover {
-  max-width: 1000px;
-  margin: auto;
-  border-radius: 30px;
-  outline-color: #004e79;
-  outline-width: 4px;
-  /*outline: dashed;*/
-  margin-bottom: 50px;
-  transition: all 0.3s ease-out;
-  transform: scale(1.1);
+  padding-bottom: 50px;
+  transition: all 0.5s ease-in;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .navbar-brand {
   margin-left: 25px;
 }
 
+.project-div:hover .project-img {
+  transition: all .5s ease-in;
+  transform: scale(1.35);
+}
+
 .project-img {
-  margin: 20px;
+  /*border-radius: 20px;*/
+  transition: all .5s ease-out;
 }
 
 .learn-more-text {
@@ -104,9 +118,7 @@ h4 {
 }
 
 .project-heading {
-  max-width: 308px;
-  margin: auto;
-  margin-bottom: 50px;
+  margin: 0 10px;
 }
 
 a {
@@ -116,10 +128,11 @@ a {
 p {
   max-width: 1000px;
   margin: auto;
+  color: var(--bs-gray-800);
 }
 
 .bar {
-  margin: auto;
+  /*margin: auto;*/
 }
 
 .nav-button {
@@ -180,7 +193,9 @@ p {
 }
 
 .project-title {
+  margin: 0;
   font-weight: 700;
   color: #004e79;
+  text-align: left;
 }
 

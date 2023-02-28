@@ -55,3 +55,15 @@
   border-radius: 50%;
 }
 
+.project {
+}
+
+.present-project-text {
+  max-width: 34%;
+}
+
+.present-project-title {
+  color: #004e79;
+  font-weight: bold;
+}
+

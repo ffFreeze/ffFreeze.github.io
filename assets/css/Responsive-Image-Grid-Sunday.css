@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.rig-header {
+  text-align: center;
+  padding: 32px;
+}
+
+.rig-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rig-column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .rig-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .rig-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.rig-column img {
+  /*margin-top: 50px;*/
+  width: 100%;
+  vertical-align: middle;
+}
+
