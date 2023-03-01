@@ -67,3 +67,14 @@
   font-weight: bold;
 }
 
+.button-div {
+  display: flex;
+  align-items: center;
+}
+
+.button-container {
+  text-align: center;
+  margin: auto;
+  padding-top: 75px;
+}
+
