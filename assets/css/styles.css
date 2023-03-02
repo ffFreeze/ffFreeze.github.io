@@ -57,6 +57,7 @@ h4 {
   /*padding-bottom: 50px;*/
   /*max-width: 1200px;*/
   margin: auto;
+  min-height: 300px;
 }
 
 .project-div:hover .project-text {
@@ -87,9 +88,9 @@ h4 {
 
 .project-div {
   position: relative;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   /*box-shadow: 5px 5px 16px 0px rgba(0,0,0,0.25);*/
-  margin-bottom: 22px;
+  margin-bottom: 25px;
   transition: all 0.5s ease-out;
   object-fit: cover;
   overflow: hidden;
@@ -120,7 +121,7 @@ h4 {
 }
 
 .project-heading {
-  margin: 0 10px;
+  margin: 0 12.5px;
 }
 
 a {
@@ -133,14 +134,16 @@ p {
 }
 
 .bar {
-  /*margin: auto;*/
+  background: #004e79;
+  margin: auto;
+  height: 4px;
 }
 
 .navbar-button {
   /*color: #004e79;*/
   background: rgb(255,255,255);
   border-width: 3px;
-  /*padding-top: 11px;*/
+  padding-top: 11px;
   border-color: #004e79;
   height: 46.5px;
   --bs-body-font-weight: bold;
@@ -174,10 +177,13 @@ p {
 
 .navbar-button:hover {
   transition: all 0.1s ease-out;
-  transform: scale(1.05);
+  transform: scale(1.2);
   /*min-width: 1000px;*/
   background-color: #004e79;
-  outline-color: #004e79;
+  text-decoration-line: underline;
+  text-decoration-color: #004e79;
+  text-decoration-thickness: 3px;
+  text-decoration-skip-ink: none;
 }
 
 .nav-button:hover {

@@ -78,8 +78,45 @@
   padding-top: 75px;
 }
 
+.project-intro-container {
+  /*padding: 0 100px;*/
+  max-width: 1550px;
+}
+
 .project-container {
   /*margin-right: 10px;*/
-  max-width: 1500px;
+  max-width: 1550px;
+}
+
+.project-intro-p {
+  text-align: justify;
+  padding: 25px 0;
+}
+
+.project-intro-header {
+  font-size: 48px;
+  padding-top: 25px;
+}
+
+.project-intro-column {
+  padding: 0px;
+  flex: 33.33%;
+  max-width: 100%;
+}
+
+.project-intro-middle-column {
+  max-width: 33.33%;
+  padding: 0;
+  flex: 33%;
+}
+
+.small-bar {
+  background: #004e79;
+  height: 2px;
+  margin: 5px 0;
+}
+
+.project-intro-sigp {
+  padding-bottom: 50px;
 }
 
