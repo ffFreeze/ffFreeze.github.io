@@ -78,3 +78,8 @@
   padding-top: 75px;
 }
 
+.project-container {
+  /*margin-right: 10px;*/
+  max-width: 1500px;
+}
+

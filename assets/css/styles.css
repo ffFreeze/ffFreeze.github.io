@@ -112,7 +112,6 @@ h4 {
 }
 
 .project-img {
-  /*border-radius: 20px;*/
   transition: all .5s ease-out;
 }
 
@@ -138,7 +137,7 @@ p {
 }
 
 .navbar-button {
-  color: #004e79;
+  /*color: #004e79;*/
   background: rgb(255,255,255);
   border-width: 3px;
   /*padding-top: 11px;*/
@@ -150,7 +149,7 @@ p {
   --bs-body-font-size: 0rem;
   margin: auto;
   transition: transform 0.1s ease-out;
-  font-size: 24px;
+  font-size: 15px;
   font-weight: 600;
 }
 
