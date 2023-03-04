@@ -100,16 +100,28 @@
   padding-top: 25px;
 }
 
+.project-intro-left-column {
+  padding: 0px;
+  max-width: 100%;
+  max-width: 500px;
+}
+
+.project-intro-right-column {
+  padding: 0px;
+  max-width: 100%;
+  max-width: 500px;
+}
+
 .project-intro-column {
   padding: 0px;
-  flex: 33.33%;
   max-width: 100%;
+  max-width: 500px;
 }
 
 .project-intro-middle-column {
-  max-width: 33.33%;
-  padding: 0;
-  flex: 33%;
+  /*max-width: 33.33%;*/
+  min-width: 0px;
+  flex: 0%;
 }
 
 .small-bar {
