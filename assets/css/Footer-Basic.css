@@ -124,3 +124,18 @@
   margin-bottom: 25px;
 }
 
+.contact-info-p {
+  font-weight: 500;
+  margin: 6px 0;
+  transition: all 0.1s ease-out;
+}
+
+.contact-info-p:hover {
+  transition: all 0.1s ease-out;
+  transform: scale(1.2);
+  /*text-decoration-line: underline;*/
+  /*text-decoration-color: #004e79;*/
+  /*text-decoration-thickness: 3px;*/
+  /*text-decoration-skip-ink: none;*/
+}
+
