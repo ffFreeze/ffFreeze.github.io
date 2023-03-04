@@ -75,7 +75,9 @@
 .button-container {
   text-align: center;
   margin: auto;
-  padding-top: 75px;
+  /*padding-top: 75px;*/
+  margin-bottom: 150px;
+  margin-top: 162px;
 }
 
 .project-intro-container {
@@ -132,7 +134,7 @@
 
 .contact-info-p:hover {
   transition: all 0.1s ease-out;
-  transform: scale(1.2);
+  transform: scale(1.1);
   /*text-decoration-line: underline;*/
   /*text-decoration-color: #004e79;*/
   /*text-decoration-thickness: 3px;*/
