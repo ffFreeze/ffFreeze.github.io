@@ -80,6 +80,12 @@
   margin-top: 162px;
 }
 
+.project-content-container {
+  /*padding: 0 100px;*/
+  margin-top: 150px;
+  max-width: 1550px;
+}
+
 .project-intro-container {
   /*padding: 0 100px;*/
   max-width: 1550px;
