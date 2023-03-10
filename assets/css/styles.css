@@ -49,15 +49,14 @@ h2 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 500;
 }
 
 .row {
   /*padding-bottom: 50px;*/
   /*max-width: 1200px;*/
-  margin: auto;
-  /*min-height: 300px;*/
+  margin: 0 2.5%;
 }
 
 .project-div:hover .project-text {
