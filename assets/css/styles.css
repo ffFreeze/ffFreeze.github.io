@@ -75,7 +75,6 @@ h4 {
   left: 0px;
   /*clip-path: polygon(0% 0, 85% 0, 25% 100%, 0% 100%);*/
   background: rgba(255,255,255,0.75);
-  -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   height: 120px;
