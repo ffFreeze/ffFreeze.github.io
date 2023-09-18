@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 26px;
   color: var(--bs-gray-800);
   font-weight: 500;
 }
@@ -68,14 +68,9 @@ h4 {
 }
 
 .project-div:hover .project-text {
-  transition: all 0.2s ease-in;
+  transition: all 0.3s ease-in;
   transform: translateY(-70%);
   /*transform: translateY(77px);*/
-}
-
-.project-text:hover {
-  transition: all 0.3s ease-in;
-  /*background: var(--bs-dark);*/
 }
 
 .project-text {
