@@ -39,3 +39,17 @@
   vertical-align: middle;
 }
 
+@media (max-width: 576px) {
+  .project-info-p-2 {
+    font-size: 10px;
+    top: 85px;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-title {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
+
