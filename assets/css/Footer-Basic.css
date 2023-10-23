@@ -190,13 +190,14 @@
 .project-info-p {
   position: absolute;
   top: 50px;
-  width: 65%;
+  width: 66%;
   margin-left: 15px;
   margin-bottom: 10px;
+  opacity: 0%;
+  transition: 0.2s;
 }
 
 .project-bg-right {
-  display: flex;
   background: rgba(255,255,255,0.75);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -204,15 +205,16 @@
   height: 150px;
   clip-path: polygon(0% 0%, 100% 100%, 100% 100%, 0% 100%);
   transition: all 0.3s ease;
-  /*transition-delay: 1s;*/
+  display: block;
+  /*transform: translateX(-0.2px);*/
 }
 
 .project-bg-left {
-  /*min-width: 50%;*/
   /*clip-path: polygon(0% 0, 85% 0, 25% 100%, 0% 100%);*/
   background: rgba(255,255,255,0.75);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  display: block;
 }
 
 .project-info-p-holder {
@@ -243,7 +245,7 @@
   bottom: -100px;
   left: 0px;
   height: 150px;
-  width: 101%;
+  width: 100%;
   transition: all .5s ease-out;
 }
 
@@ -278,6 +280,7 @@
   font-weight: 800;
   font-size: 1.5rem;
   letter-spacing: 2px;
+  color: #004e79;
 }
 
 .project-arrow-holder {
@@ -285,7 +288,8 @@
   height: 100%;
   width: 100%;
   transition: 0.3s;
-  justify-content: left;
+  /*justify-content: left;*/
+  display: block;
 }
 
 .project-div:hover .project-arrow-holder {
