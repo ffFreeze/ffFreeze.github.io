@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://fffreeze.github.io/projects/extracurricular/deskorganizer.html</loc>
+    </url>
+    <url>
+        <loc>https://fffreeze.github.io/projects/extracurricular/plateholder.html</loc>
+    </url>
+    <url>
+        <loc>https://fffreeze.github.io/projects/extracurricular/y2robotics.html</loc>
+    </url>
+    <url>
+        <loc>https://fffreeze.github.io/projects/extracurricular/y3robotics.html</loc>
+    </url>
+    <url>
         <loc>https://fffreeze.github.io/projects/arcee.html</loc>
     </url>
     <url>
@@ -10,16 +22,22 @@
         <loc>https://fffreeze.github.io/projects/beosound.html</loc>
     </url>
     <url>
-        <loc>https://fffreeze.github.io/projects/deskorganizer.html</loc>
-    </url>
-    <url>
         <loc>https://fffreeze.github.io/projects/infraheat.html</loc>
     </url>
     <url>
         <loc>https://fffreeze.github.io/projects/mealbox.html</loc>
     </url>
     <url>
-        <loc>https://fffreeze.github.io/projects/plateholder.html</loc>
+        <loc>https://fffreeze.github.io/projects/octoping.html</loc>
+    </url>
+    <url>
+        <loc>https://fffreeze.github.io/projects/plantera.html</loc>
+    </url>
+    <url>
+        <loc>https://fffreeze.github.io/projects/revealinder.html</loc>
+    </url>
+    <url>
+        <loc>https://fffreeze.github.io/projects/sketching.html</loc>
     </url>
     <url>
         <loc>https://fffreeze.github.io/projects/spotted.html</loc>
@@ -31,19 +49,16 @@
         <loc>https://fffreeze.github.io/projects/tempestio.html</loc>
     </url>
     <url>
-        <loc>https://fffreeze.github.io/projects/template.html</loc>
-    </url>
-    <url>
-        <loc>https://fffreeze.github.io/projects/y2robotics.html</loc>
-    </url>
-    <url>
-        <loc>https://fffreeze.github.io/projects/y3robotics.html</loc>
+        <loc>https://fffreeze.github.io/projects/tuecomotive.html</loc>
     </url>
     <url>
         <loc>https://fffreeze.github.io/about.html</loc>
     </url>
     <url>
         <loc>https://fffreeze.github.io/contact.html</loc>
+    </url>
+    <url>
+        <loc>https://fffreeze.github.io/development.html</loc>
     </url>
     <url>
         <loc>https://fffreeze.github.io/future.html</loc>
@@ -56,6 +71,9 @@
     </url>
     <url>
         <loc>https://fffreeze.github.io/pdp.html</loc>
+    </url>
+    <url>
+        <loc>https://fffreeze.github.io/template.html</loc>
     </url>
     <url>
         <loc>https://fffreeze.github.io/tue.html</loc>

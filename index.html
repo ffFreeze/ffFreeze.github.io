@@ -36,7 +36,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         {
             "@context": "http://schema.org",
             "@type": "WebSite",
-            "name": "Petr Dobiáš Portfolio v11",
+            "name": "Petr Dobiáš Portfolio v14",
             "url": "https://fffreeze.github.io/"
         }
     </script>
@@ -49,6 +49,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira:400,500,600,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Condensed&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Responsive-Image-Grid-Sunday-1.css">
     <link rel="stylesheet" href="assets/css/Responsive-Image-Grid-Sunday.css">
@@ -64,14 +65,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <nav class="navbar navbar-expand-md navbar-light" style="/*border-bottom: 5px solid #004e79;*/height: 60px;">
         <div class="container-fluid"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 34px;transform: translate(7px);margin-top: 0px;color: #004e79;">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20Z" fill="currentColor"></path>
-            </svg><a class="navbar-brand" href="/" style="font-size: 24px;padding: 0px 0px;color: var(--bs-gray-800);">Petr Dobiáš</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            </svg><a class="navbar-brand" href="/" style="font-size: 24px;padding: 0px 0px;color: var(--bs-gray-800);">Petr Dobiáš | Portfolio</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link navbar-button" href="/" style="/*font-size: 18px;*/">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link navbar-button" href="/" style="/*font-size: 18px;*/">Project Overview</a></li>
                     <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link navbar-button" href="../about.html" style="/*font-size: 18px;*/">About</a></li>
+                    <li class="nav-item"><a class="nav-link navbar-button" href="about.html" style="/*font-size: 18px;*/">About me</a></li>
                     <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link navbar-button" href="../contact.html" style="/*font-size: 18px;*/">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link navbar-button" href="../development.html" style="/*font-size: 18px;*/">Competence Development</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link navbar-button" href="contact.html" style="/*font-size: 18px;*/">Contact</a></li>
                     <li class="nav-item"></li>
                     <li class="nav-item" style="width: 5px;"></li>
                 </ul>
@@ -87,15 +90,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </div>
     <div class="container project-container" id="welcome" style="margin-top: 42px;padding-left: 24px;padding-right: 24px;">
-        <h2 style="margin-top: 60px;--bs-body-font-weight: 600;margin-bottom: 10px;"><span style="color: rgb(33, 37, 41);">THIS</span>&nbsp;IS MY EDUCATIONAL PORTFOLIO<br></h2>
-        <p style="margin-right: 0px;margin-left: 0px;max-width: 643px;font-size: 19px;">Hi! I'm <strong>Petr Dobiáš</strong>, currently studying <strong>Industrial Design</strong> at <strong>Eindhoven University of Technology </strong>in the Netherlands. In this portfolio, I introduce myself and present my achievements during the study.</p>
+        <h2 style="margin-top: 60px;--bs-body-font-weight: 600;margin-bottom: 10px;">Hello! I'm&nbsp;<strong>Petr Dobiáš</strong></h2>
+        <p style="margin-right: 0px;margin-left: 0px;max-width: 643px;font-size: 19px;">An&nbsp;<strong>Industrial Design </strong>student at <strong>Eindhoven University of Technology </strong>in the Netherlands. In this portfolio, I introduce myself and present my achievements during the study.</p>
     </div>
     <div class="container project-container" id="projects-1" style="margin-top: 68px;">
         <div id="university-projects" class="project-heading" style="/*border-bottom: 5px solid #004e79;*/margin-bottom: 25px;/*padding-left: 10px;*/">
-            <h2 style="margin-bottom: 5px;">UNIVERSITY PROJECTS</h2>
+            <h2 style="margin-bottom: 5px;">PROJECT OVERVIEW</h2>
             <div class="bar"></div>
         </div>
-        <div>
+        <div><a href="projects/octoping.html">
+                <div class="project-div" style="padding-top: 0px;max-width: 100%; margin-left: 12.5px;margin-right: 12.5px;"><img class="project-img" src="assets/img/Octoping/Octoping%20wide-1.webp" style="max-width: 100%;">
+                    <div class="project-text-div">
+                        <div class="project-text">
+                            <div class="project-bg-left">
+                                <h2 class="project-title">Octoping</h2>
+                            </div>
+                            <div class="project-bg-right">
+                                <div class="project-arrow-holder">
+                                    <p class="project-arrow-more"><span style="color: rgb(50, 56, 61);">MORE</span></p>
+                                    <p class="project-arrow-see"><span style="color: rgb(50, 56, 61);">SEE</span></p>
+                                    <div class="project-arrow-button"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p class="project-info-p" style="max-width: 600px;"><span style="color: rgb(50, 56, 61);">A pair of </span><strong><span style="color: rgb(50, 56, 61);">connected octopus companions</span></strong><span style="color: rgb(50, 56, 61);"> designed to help </span><strong><span style="color: rgb(50, 56, 61);">long-distance</span></strong><span style="color: rgb(50, 56, 61);"> couples </span><strong><span style="color: rgb(50, 56, 61);">emotionally</span></strong><span style="color: rgb(50, 56, 61);"> express themselves.</span></p>
+                                <p class="project-info-p-2"><span style="color: rgb(50, 56, 61);">TU/e | Final Bachelor Project | January 2025</span></p>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
             <!--Photo Grid-->
             <!--Comment-->
             <div class="rig-row">
@@ -310,10 +337,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="project-div"></div>
         </a><a href="present.html/#artillery_section">
             <div class="project-div"></div>
+        </a><a href="projects/octoping.html">
+            <div class="project-div" style="padding-top: 0px;max-width: 100%; margin-left: 12.5px;margin-right: 12.5px;"><img class="project-img" src="assets/img/TUecomotive/tuecomotive.webp" style="max-width: 100%;">
+                <div class="project-text-div">
+                    <div class="project-text">
+                        <div class="project-bg-left">
+                            <h2 class="project-title">TU/ecomotive EM10</h2>
+                        </div>
+                        <div class="project-bg-right">
+                            <div class="project-arrow-holder">
+                                <p class="project-arrow-more"><span style="color: rgb(50, 56, 61);">MORE</span></p>
+                                <p class="project-arrow-see"><span style="color: rgb(50, 56, 61);">SEE</span></p>
+                                <div class="project-arrow-button"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p class="project-info-p" style="max-width: 600px;"><span style="color: rgba(0, 0, 0, 0.9);">Designing the 10th concept car of TU/ecomotive student team. As the car development is currently in progress and unrevealed, I</span>&nbsp;cannot yet show my work.<br><br></p>
+                            <p class="project-info-p-2"><span style="color: rgb(50, 56, 61);">TU/ecomotive |&nbsp;</span><span style="color: rgba(0, 0, 0, 0.9);">Lead interior &amp; exterior designer&nbsp;</span><span style="color: rgb(50, 56, 61);">| September 2024 - August 2025</span></p>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
         </a>
         <div>
             <div class="rig-row">
-                <div class="rig-column"><a href="projects/y3robotics.html">
+                <div class="rig-column"><a href="projects/extracurricular/y3robotics.html">
                         <div class="project-div"><img class="project-img" src="assets/img/Robotics/20210602_161243.jpg">
                             <div class="project-text-div">
                                 <div class="project-text">
@@ -337,7 +388,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </div>
                             </div>
                         </div>
-                    </a><a href="projects/plateholder.html">
+                    </a><a href="projects/extracurricular/plateholder.html">
                         <div class="project-div" style="padding-top: 0px;"><img class="project-img" src="assets/img/Home%20projects/vfna0p0pcrj212.png">
                             <div class="project-text-div">
                                 <div class="project-text">
@@ -362,7 +413,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             </div>
                         </div>
                     </a></div>
-                <div class="rig-column"><a href="projects/y2robotics.html">
+                <div class="rig-column"><a href="projects/extracurricular/y2robotics.html">
                         <div class="project-div" style="padding-top: 0px;"><img class="project-img" src="assets/img/Robotics/2019-2020/2020%201%20-%20Copy.png">
                             <div class="project-text-div">
                                 <div class="project-text">
@@ -386,7 +437,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </div>
                             </div>
                         </div>
-                    </a><a href="projects/deskorganizer.html">
+                    </a><a href="projects/extracurricular/deskorganizer.html">
                         <div class="project-div" style="padding-top: 0px;"><img class="project-img" src="assets/img/Home%20projects/20210122_141436.jpg">
                             <div class="project-text-div">
                                 <div class="project-text">

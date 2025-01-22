@@ -52,7 +52,7 @@ h4 {
 
 .row {
   /*padding-bottom: 50px;*/
-  /*max-width: 1200px;*/
+  max-width: 800ox;
   margin: 0 2.5%;
 }
 
@@ -92,9 +92,21 @@ h4 {
   overflow: hidden;
 }
 
+.project-mini-div {
+  /*max-width: 20%;*/
+  position: relative;
+  border-radius: 15px;
+  /*box-shadow: 5px 5px 16px 3px rgba(0,0,0,0.5);*/
+  margin-bottom: 26px;
+  transition: all 0.3s ease-out;
+  object-fit: cover;
+  overflow: hidden;
+  /*transition-delay: 1s;*/
+}
+
 .project-div {
   position: relative;
-  /*border-radius: 10px;*/
+  /*border-radius: 20px;*/
   /*box-shadow: 5px 5px 16px 3px rgba(0,0,0,0.5);*/
   margin-bottom: 26px;
   transition: all 0.3s ease-out;
@@ -114,10 +126,31 @@ h4 {
   margin-left: 25px;
 }
 
+.project-mini-div:hover .project-mini-img {
+  /*display: none;*/
+  transition: all 0.2s ease-in;
+  transform: scale(1.15);
+}
+
+.project-mini-div:hover .project-img {
+  /*display: none;*/
+  transition: all 0.5s ease-in;
+  transform: scale(1.15) translateY(15px);
+}
+
 .project-div:hover .project-img {
   /*display: none;*/
   transition: all 0.5s ease-in;
   transform: scale(1.15) translateY(15px);
+}
+
+.project-mini-img {
+  display: inline;
+  aspect-ratio: 18 / 9;
+  object-fit: cover;
+  transition: all .5s ease-in;
+  /*border-radius: 20px 20px 20px 0px;*/
+  /*transition-delay: 1s;*/
 }
 
 .project-img {
@@ -258,6 +291,18 @@ p {
 .expertise-area {
   margin: auto;
   margin-top: 10px;
+}
+
+.project-mini-title {
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 13px;
+  margin-top: 0px;
+  padding-top: 5px;
+  margin-right: 13px;
+  font-weight: 600;
+  color: #004e79;
+  white-space: nowrap;
 }
 
 .project-title {
