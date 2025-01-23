@@ -52,8 +52,8 @@ h4 {
 
 .row {
   /*padding-bottom: 50px;*/
-  max-width: 800ox;
-  margin: 0 2.5%;
+  /*max-width: 800ox;*/
+  margin: 0 0.5%;
 }
 
 .project-div:hover .project-bg-right {

@@ -89,7 +89,7 @@
 
 .project-intro-container {
   /*padding: 0 100px;*/
-  max-width: 1550px;
+  max-width: 1450px;
 }
 
 .project-container {
@@ -99,10 +99,11 @@
 
 .project-intro-p {
   text-align: justify;
-  padding: 25px 0;
+  /*padding: 25px 0;*/
 }
 
 .project-intro-header {
+  margin: 0;
   font-size: 48px;
   padding-top: 25px;
 }
@@ -133,7 +134,7 @@
 
 .project-intro-column {
   padding: 0px;
-  max-width: 100%;
+  /*max-width: 100%;*/
   max-width: 500px;
 }
 
@@ -152,7 +153,7 @@
 .small-bar {
   background: #004e79;
   height: 2px;
-  margin: 5px 0;
+  margin: 8px 0;
 }
 
 .project-intro-sigp {
@@ -386,5 +387,23 @@
   margin-right: 13px;
   font-weight: 600;
   white-space: nowrap;
+}
+
+.vbar {
+  margin-top: 25px;
+  margin-right: 2%;
+  min-width: 4px;
+  /*width: 30px;*/
+  border-radius: 30px;
+}
+
+.vbar-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-intro-column-right {
+  padding: 0;
+  max-width: 800px;
 }
 
