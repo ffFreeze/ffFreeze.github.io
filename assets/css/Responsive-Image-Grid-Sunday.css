@@ -12,6 +12,13 @@
   flex-wrap: wrap;
 }
 
+.rig-dev-column {
+  flex: 20%;
+  max-width: 50%;
+  padding: 0 4px;
+  /*margin-top: 25px;*/
+}
+
 .rig-column {
   flex: 20%;
   max-width: 50%;
@@ -31,6 +38,13 @@
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.rig-dev-column img {
+  /*border-radius: 20px;*/
+  margin-bottom: 8px;
+  width: 100%;
+  vertical-align: middle;
 }
 
 .rig-column img {

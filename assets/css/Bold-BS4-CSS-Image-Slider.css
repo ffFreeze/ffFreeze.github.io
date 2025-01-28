@@ -53,3 +53,20 @@
   height: 60px;
 }
 
+.development-right-column {
+  max-width: 700px;
+  padding-top: 33px;
+}
+
+.development-container.vbar-flex {
+  max-width: 1450px;
+  margin-top: 100px;
+}
+
+.development-header {
+  color: var(--bs-white);
+  margin: 0;
+  font-size: 48px;
+  padding-top: 25px;
+}
+
