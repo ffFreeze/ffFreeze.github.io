@@ -70,3 +70,10 @@
   padding-top: 25px;
 }
 
+.project-double-image {
+  margin-bottom: 30px;
+  max-width: 100%;
+  /*aspect-ratio: 1.2;*/
+  object-fit: cover;
+}
+
