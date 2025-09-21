@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Title Forge — Text Vibe Lab</title>
+    <link rel="stylesheet" href="./title-lab.css" />
+  </head>
+  <body>
+    <main>
+      <aside class="control-panel">
+        <div class="header">
+          <span class="badge">Title Forge</span>
+          <h1>Craft eccentric SVG title art</h1>
+          <p>
+            Dial in typography, gradients, and dreamy effects. Remix presets or tune every
+            control to export a bespoke vector ready for your pictorial spreads.
+          </p>
+        </div>
+
+        <div class="preset-row" id="preset-row"></div>
+
+        <section class="panel" aria-labelledby="typography-heading">
+          <header>
+            <h2 id="typography-heading">Typography</h2>
+            <small>Letterforms &amp; structure</small>
+          </header>
+          <div class="control-group">
+            <label class="control-label" for="title-text">Title text</label>
+            <textarea id="title-text" data-key="text" placeholder="Enter your headline"></textarea>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="font-family">Font family</label>
+            <select id="font-family" data-key="fontFamily">
+              <option value="Manrope">Manrope</option>
+              <option value="Space Grotesk">Space Grotesk</option>
+              <option value="Playfair Display">Playfair Display</option>
+              <option value="Syne">Syne</option>
+              <option value="Archivo Black">Archivo Black</option>
+              <option value="Pacifico">Pacifico</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="font-weight">Font weight</label>
+            <div class="slider-row">
+              <input id="font-weight" type="range" min="200" max="900" step="50" data-key="fontWeight" />
+              <span data-for="font-weight"></span>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="font-size">Font size</label>
+            <div class="slider-row">
+              <input id="font-size" type="range" min="32" max="160" step="2" data-key="fontSize" />
+              <span data-for="font-size"></span>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="letter-spacing">Letter spacing</label>
+            <div class="slider-row">
+              <input id="letter-spacing" type="range" min="-20" max="40" step="1" data-key="letterSpacing" />
+              <span data-for="letter-spacing"></span>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="line-height">Line height</label>
+            <div class="slider-row">
+              <input id="line-height" type="range" min="80" max="180" step="2" data-key="lineHeight" />
+              <span data-for="line-height"></span>
+            </div>
+          </div>
+          <label class="toggle">
+            <input type="checkbox" id="uppercase" data-key="uppercase" />
+            Uppercase</label
+          >
+          <label class="toggle">
+            <input type="checkbox" id="outline" data-key="showStroke" />
+            Outline stroke</label
+          >
+          <div class="control-group">
+            <label class="control-label" for="slant">Slant</label>
+            <div class="slider-row">
+              <input id="slant" type="range" min="-20" max="20" step="1" data-key="slant" />
+              <span data-for="slant"></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="color-heading">
+          <header>
+            <h2 id="color-heading">Color &amp; Light</h2>
+            <small>Fill, gradients, glow</small>
+          </header>
+          <div class="control-group">
+            <label class="control-label">Gradient stops</label>
+            <div class="actions">
+              <input type="color" id="gradient-start" data-key="gradientStart" />
+              <input type="color" id="gradient-end" data-key="gradientEnd" />
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="gradient-angle">Gradient angle</label>
+            <div class="slider-row">
+              <input id="gradient-angle" type="range" min="0" max="360" step="1" data-key="gradientAngle" />
+              <span data-for="gradient-angle"></span>
+            </div>
+          </div>
+          <div class="control-group" data-visible-when="showStroke">
+            <label class="control-label" for="stroke-color">Stroke color</label>
+            <input type="color" id="stroke-color" data-key="strokeColor" />
+            <div class="slider-row">
+              <input id="stroke-width" type="range" min="0" max="12" step="0.5" data-key="strokeWidth" />
+              <span data-for="stroke-width"></span>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="glow-strength">Glow</label>
+            <div class="slider-row">
+              <input id="glow-strength" type="range" min="0" max="48" step="1" data-key="glowStrength" />
+              <span data-for="glow-strength"></span>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="shadow-strength">Shadow depth</label>
+            <div class="slider-row">
+              <input id="shadow-strength" type="range" min="0" max="64" step="1" data-key="shadowStrength" />
+              <span data-for="shadow-strength"></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="layout-heading">
+          <header>
+            <h2 id="layout-heading">Layout &amp; Atmosphere</h2>
+            <small>Background &amp; distortion</small>
+          </header>
+          <div class="control-group">
+            <label class="control-label" for="background-style">Backdrop style</label>
+            <select id="background-style" data-key="backgroundStyle">
+              <option value="halo">Halo aura</option>
+              <option value="orbits">Orbit rings</option>
+              <option value="bars">Aurora bars</option>
+              <option value="none">None</option>
+            </select>
+          </div>
+          <div class="control-group">
+            <label class="control-label">Backdrop gradient</label>
+            <div class="actions">
+              <input type="color" id="bg-start" data-key="backgroundStart" />
+              <input type="color" id="bg-end" data-key="backgroundEnd" />
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="background-blur">Backdrop blur</label>
+            <div class="slider-row">
+              <input id="background-blur" type="range" min="0" max="60" step="1" data-key="backgroundBlur" />
+              <span data-for="background-blur"></span>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="wave-scale">Wave warp</label>
+            <div class="slider-row">
+              <input id="wave-scale" type="range" min="0" max="40" step="1" data-key="waveScale" />
+              <span data-for="wave-scale"></span>
+            </div>
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="wave-detail">Wave detail</label>
+            <div class="slider-row">
+              <input id="wave-detail" type="range" min="10" max="120" step="1" data-key="waveDetail" />
+              <span data-for="wave-detail"></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="presets-heading">
+          <header>
+            <h2 id="presets-heading">Presets &amp; Export</h2>
+            <small>Save, share, ship</small>
+          </header>
+          <div class="control-group">
+            <label class="control-label" for="preset-name">Save preset</label>
+            <input type="text" id="preset-name" placeholder="Preset name" />
+            <button class="secondary" id="save-preset">Save current vibe</button>
+          </div>
+          <div class="saved-presets" id="saved-presets"></div>
+          <div class="actions">
+            <button class="primary" id="copy-svg">Copy SVG</button>
+            <button class="secondary" id="download-svg">Download .svg</button>
+          </div>
+          <textarea class="code-dump" id="svg-output" readonly></textarea>
+        </section>
+      </aside>
+
+      <section class="preview-wrap">
+        <div class="preview-meta">
+          <span class="badge">Live preview</span>
+          <span id="dimensions">960 × 540</span>
+        </div>
+        <div class="preview-stage">
+          <div id="preview"></div>
+        </div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast">Copied to clipboard ✨</div>
+
+    <script type="module" src="./title-lab.js"></script>
+  </body>
+</html>
